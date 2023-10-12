@@ -61,4 +61,6 @@ Future<void> addDataToDB() async {
       {'Answer': 'khulna', 'isCorroct': 'false'},
     ]
   };
+
+  await collection.add(quizMap);
 }
